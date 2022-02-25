@@ -26,7 +26,7 @@ struct LargeSizeView: View {
             .clipped() // clips everything into a single view so that the shadow does not apply to each individual element of the stack
             .shadow(radius: 5)
             
-            ForEach(0 ..< 10, id: \.self) { _ in
+            ForEach(0 ..< 6, id: \.self) { _ in
                 HStack {
                     Circle()
                         .stroke(lineWidth: 2)
@@ -44,6 +44,7 @@ struct LargeSizeView: View {
                 
                 Divider()
             }
+            Spacer()
         }
     }
 }
