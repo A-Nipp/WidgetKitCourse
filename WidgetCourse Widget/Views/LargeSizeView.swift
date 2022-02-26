@@ -27,23 +27,26 @@ struct LargeSizeView: View {
             .shadow(radius: 5)
             
             ForEach(0 ..< 6, id: \.self) { _ in
-                HStack {
-                    Circle()
-                        .stroke(lineWidth: 2)
-                        .frame(width: 30, height: 30)
-                        .overlay {
-                            if true {
-                                Image(systemName: "checkmark")
+                Link(destination: URL(string:"myapp://todo/1")!) {
+                    HStack {
+                        Circle()
+                            .stroke(lineWidth: 2)
+                            .frame(width: 30, height: 30)
+                            .overlay {
+                                if true {
+                                    Image(systemName: "checkmark")
+                                }
                             }
-                        }
-                    Text("todo title")
+                        Text("todo title")
+                        
+                        Spacer()
+                    }
+                    .padding(.horizontal)
                     
-                    Spacer()
                 }
-                .padding(.horizontal)
-                
                 Divider()
             }
+            
             Spacer()
         }
     }

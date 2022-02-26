@@ -17,6 +17,8 @@
 		160917AF27C8795800D1CD56 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160917AE27C8795800D1CD56 /* WidgetView.swift */; };
 		160917B127C87A8700D1CD56 /* MediumSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160917B027C87A8700D1CD56 /* MediumSizeView.swift */; };
 		160917B327C87A9500D1CD56 /* LargeSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160917B227C87A9500D1CD56 /* LargeSizeView.swift */; };
+		16480F0527CAD9D1006B9F75 /* TodoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C658B182757926700435678 /* TodoService.swift */; };
+		16480F0627CADA34006B9F75 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C658B162757923A00435678 /* Todo.swift */; };
 		5C658B0727578E1900435678 /* WidgetKitCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C658B0627578E1900435678 /* WidgetKitCourseApp.swift */; };
 		5C658B0927578E1900435678 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C658B0827578E1900435678 /* ContentView.swift */; };
 		5C658B0B27578E1A00435678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C658B0A27578E1A00435678 /* Assets.xcassets */; };
@@ -282,7 +284,9 @@
 				160917AD27C8793400D1CD56 /* SimpleEntry.swift in Sources */,
 				160917A927C878E200D1CD56 /* Provider.swift in Sources */,
 				160917B127C87A8700D1CD56 /* MediumSizeView.swift in Sources */,
+				16480F0627CADA34006B9F75 /* Todo.swift in Sources */,
 				160917B327C87A9500D1CD56 /* LargeSizeView.swift in Sources */,
+				16480F0527CAD9D1006B9F75 /* TodoService.swift in Sources */,
 				160917AF27C8795800D1CD56 /* WidgetView.swift in Sources */,
 				1609179D27C8774700D1CD56 /* WidgetCourse_Widget.swift in Sources */,
 			);
